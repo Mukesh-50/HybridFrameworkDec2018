@@ -10,18 +10,16 @@ public class FirstLoginFreeCRMTest extends BaseClass {
 	LoginPage login;
 
 	@Test
-	public void loginCRM() 
-	{
-		logger=report.createTest("CRM login Test");
-		
+	public void loginCRM() {
+		logger = report.createTest("CRM login Test");
+
 		login = PageFactory.initElements(driver, LoginPage.class);
-		
+
 		logger.info("Browser and Application is up and running");
-		
-		login.loginToApplication
-		(DataProviderFactory.getExcel().getStringData("Login", 0, 0),
-		 DataProviderFactory.getExcel().getStringData("Login", 0, 1));
-		
+
+		login.loginToApplication(DataProviderFactory.getExcel().getStringData("Login", 0, 0),
+				DataProviderFactory.getExcel().getStringData("Login", 0, 1));
+
 	}
-	
+
 }
