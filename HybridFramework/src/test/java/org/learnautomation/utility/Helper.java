@@ -87,6 +87,13 @@ public class Helper {
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
+	
+	public static WebElement dummy(WebDriver driver, WebElement element,int time)
+	{
+		WebDriverWait wait=new WebDriverWait(driver, time);
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
 	public static WebElement highLightElement(WebDriver driver, WebElement element) 
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
