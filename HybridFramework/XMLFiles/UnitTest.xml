@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UnitTestCases">
+  <test thread-count="5" name="UnitTestCases">
+    <classes>
+      <class name="org.learnautomation.unitTest.TestDataProviderFactory"/>
+      <class name="org.learnautomation.unitTest.TestBrowserFactory"/>
+    </classes>
+  </test> <!-- UnitTestCases -->
+</suite> <!-- UnitTestCases -->
