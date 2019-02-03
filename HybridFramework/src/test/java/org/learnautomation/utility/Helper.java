@@ -105,10 +105,6 @@ public class Helper {
 		return element;
 	}
 
-	
-	public void getCurrentDateAndTime() {
-
-	}
 
 
 }
