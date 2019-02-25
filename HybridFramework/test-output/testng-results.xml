@@ -2,39 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60682" started-at="2019-02-03T03:57:13Z" finished-at="2019-02-03T03:58:14Z">
+  <suite name="Default suite" duration-ms="11538" started-at="2019-02-10T17:25:44Z" finished-at="2019-02-10T17:25:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60682" started-at="2019-02-03T03:57:13Z" finished-at="2019-02-03T03:58:14Z">
-      <class name="org.learnautomation.testcases.FirstLoginFreeCRMTest">
-        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa]" name="setupTestSuite" is-config="true" duration-ms="468" started-at="2019-02-03T09:27:12Z" finished-at="2019-02-03T09:27:13Z">
+    <test name="Default test" duration-ms="11538" started-at="2019-02-10T17:25:44Z" finished-at="2019-02-10T17:25:55Z">
+      <class name="org.learnautomation.testcases.SeleniumGridTest3">
+        <test-method status="PASS" signature="testOnCloud()[pri:0, instance:org.learnautomation.testcases.SeleniumGridTest3@4678c730]" name="testOnCloud" duration-ms="11499" started-at="2019-02-10T22:55:44Z" finished-at="2019-02-10T22:55:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTestSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa]" name="setup" is-config="true" duration-ms="13413" started-at="2019-02-03T09:27:13Z" finished-at="2019-02-03T09:27:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginCRM()[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa]" name="loginCRM" duration-ms="39328" started-at="2019-02-03T09:27:26Z" finished-at="2019-02-03T09:28:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCRM -->
-        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa]" name="tearDownTest" is-config="true" duration-ms="765" started-at="2019-02-03T09:28:06Z" finished-at="2019-02-03T09:28:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginCRM status=SUCCESS method=FirstLoginFreeCRMTest.loginCRM()[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.learnautomation.testcases.FirstLoginFreeCRMTest@29ee9faa]" name="tearDown" is-config="true" duration-ms="7157" started-at="2019-02-03T09:28:06Z" finished-at="2019-02-03T09:28:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- org.learnautomation.testcases.FirstLoginFreeCRMTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testOnCloud -->
+      </class> <!-- org.learnautomation.testcases.SeleniumGridTest3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

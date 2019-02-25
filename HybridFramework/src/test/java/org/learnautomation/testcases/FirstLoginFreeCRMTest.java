@@ -10,7 +10,8 @@ public class FirstLoginFreeCRMTest extends BaseClass {
 	LoginPage login;
 
 	@Test
-	public void loginCRM() {
+	public void loginCRM() 
+	{	
 		logger = report.createTest("CRM login Test");
 
 		login = PageFactory.initElements(driver, LoginPage.class);
